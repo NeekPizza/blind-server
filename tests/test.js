@@ -3,7 +3,7 @@ const { Server } = require("socket.io");
 const Client = require("socket.io-client");
 const assert = require("chai").assert;
 
-describe("tests", () => {
+describe("Server", () => {
   let io, serverSocket, clientSocket;
 
   before((done) => {
